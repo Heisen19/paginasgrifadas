@@ -638,7 +638,7 @@ font-size: 5rem;
 /*Small mobile*/
 
 
-@media screen and (max-width: 550px){
+@media screen and (min-width: 320px) and (max-width: 550px){
 
 .cta-frame{
 
@@ -717,9 +717,11 @@ margin-bottom: 5%;
 #subtitulo-intro{
 
 	font-size: 2rem;
-	max-width: 320px;
+	max-width: 100%;
 
 	margin-top: 5%;
+
+	text-align: center;
 
 }
 
