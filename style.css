@@ -1,0 +1,815 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+	font-family: arial;
+}
+
+html,body{
+
+	width: 100%;
+	height: 100%;
+}
+
+@font-face{
+font-family: teste;
+src: url(HelloParisScript.ttf);
+
+
+}
+
+@font-face{
+font-family: teste2;
+src: url(Conforta.ttf);
+
+}
+
+/*Frame geral*/
+
+
+
+
+
+#frame{
+
+	max-width: 1440px;
+	max-height: 100%;
+
+	margin: auto;
+
+	border: 1px solid black;
+
+	position: relative;
+
+
+}
+/*-*/
+
+/*	#frame-introduction{
+
+		max-width: 100%;
+		max-height: 820px;
+
+		position: relative;
+
+		margin-bottom: 100px;
+        border: 1px solid black;
+
+        background: red;
+
+	}*/
+
+
+    /*---*/
+
+  
+	header{
+
+	     border: 1px solid black;
+
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+
+          position: absolute;
+          top: 0;
+          left: 50%;
+
+          transform: translate(-50%);
+
+	}
+
+
+	/*-*/
+
+
+		nav{
+
+            border: 1px solid black;
+           
+	        display: flex;
+	        flex-direction: row;
+	        justify-content: space-around;
+	        align-items: center;
+
+	        gap: 40px;
+
+		}
+
+		/*-*/
+
+			.items{
+
+				position: relative;
+				font-size: 1.5rem;
+			}
+
+/*--------------------------------------------------------------*/
+
+/*Introduction*/
+
+
+#introduction{
+
+	     border: 1px solid black;
+
+          position: relative;
+
+          max-width: 100%;
+		height: 820px;
+
+          margin: auto;
+
+          color: #ebdfcc;
+          
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          background-image: linear-gradient(45deg, #582770, #f71568, #b3c631);
+
+          
+      
+
+}
+
+/*-*/
+
+	#title-introduction{
+
+		border: 1px solid black;
+
+		width: 70%;
+
+		font-size: 8rem;
+
+		font-family: teste;
+
+		text-align: center;
+
+		margin-bottom: 5%;
+
+		color: #02031a;
+
+		padding: 0;
+
+		position: relative;
+
+		line-height: 150px;
+
+	}
+
+
+	#title-introduction h1{
+
+		font-family: teste;
+		text-align: left;
+		font-weight: 600;
+
+	}
+
+	#title-introduction h2{
+
+		font-family: teste2;
+          font-size: 9rem;
+          text-align: right;
+
+          color: #cde54e;
+
+          font-weight: normal;
+	}
+	/*---*/
+
+	#sub-title-introduction{
+
+		border: 1px solid black;
+
+        max-width: 100%;
+
+        font-size: 2rem;
+
+		text-align: center;
+
+	}
+
+/*--------------------------------------------------------------*/
+
+/*About*/
+
+
+#about{
+     border: 1px solid black;
+
+     position: relative;
+
+     max-width: 100%;
+     height: 820px;
+
+     background: gray;
+
+     display: flex;
+     flex-direction: column;
+     
+}
+
+/*-*/
+
+	#about-top{
+
+        border: 1px solid black;
+
+        position: relative;
+
+        max-width: 100%;
+        height: 25%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+
+	}
+
+	#about-top h2{
+
+        
+	}
+
+	/*---*/
+
+	#about-bottom{
+
+            border: 1px solid black;
+
+            position: relative;
+
+            max-width: 100%;
+            height: 75%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+	}
+
+    /*-*/
+
+    	#about-bottom-left{
+
+             border: 1px solid black;
+
+             position: relative;
+
+             max-width: 49%;
+             height: 100%;
+
+             display: flex;
+	         flex-direction: row;
+	         justify-content: flex-start;
+	         align-items: center;
+    
+
+    	}
+
+    	/*-*/
+
+    		#about-bottom-left-content{
+
+                 border: 1px solid black;
+
+                 position: relative;
+
+                 max-width: 75%;
+                 height: 75%;
+
+    		}
+
+    	/*---*/
+
+    	#about-bottom-right{
+
+ 				border: 1px solid black;
+
+ 				position: relative;
+
+ 				max-width: 49%;
+ 				height: 100%;
+
+ 				display: flex;
+ 				justify-content: center;
+ 				align-items: center;
+
+    	}
+
+    	/*-*/
+
+    		#image-woman{
+
+ 				border: 1px solid black;
+
+
+                 max-width: 300px;
+
+    		}
+
+    		/*-*/
+
+    			#pic-barb{
+
+                 display: block;
+
+                 max-width: 300px;
+
+    			}
+
+    			#shape-barbara{
+
+    				max-width: 400px;
+    				max-height: 400px;
+
+    				border-radius: 30px;
+
+    				background: black;
+
+    				position: relative;
+
+    				display: flex;
+    				justify-content: center;
+ 				    align-items: center;
+
+    			}
+
+
+/*--------------------------------------------------------------*/
+   
+/*Benefits*/
+
+
+#benefits{
+
+		 border: 1px solid black;
+
+		 position: relative;
+
+		 max-width: 100%;
+		 height: 100%;
+		 
+
+		 background: #e0d6b8;
+
+}
+
+/*-*/
+	
+	#benefits-top{
+
+ 		 border: 1px solid black;
+
+ 		 max-width: 100%;
+ 		 height: 10%;
+
+ 		 display: flex;
+ 		 flex-direction: row;
+ 		 justify-content: center;
+ 		 align-items: center;
+
+ 		 padding-top: 5%;
+ 		 padding-bottom: 5%;
+
+	}
+
+	/*-*/
+
+		#benefits-top h2{
+
+
+			position: relative;
+		}
+
+	/*---*/
+
+	#benefits-bottom{
+
+ 		 border: 1px solid black;
+
+ 		 position: relative;
+
+ 		 max-width: 100%;
+ 		 height: 100%;
+
+ 		 padding-top: 5%;
+ 		 padding-bottom: 5%;
+
+ 		 display: flex;
+ 		 flex-direction: row;
+ 		 justify-content: space-evenly;
+ 		 align-items: center;
+ 		 flex-wrap: wrap;
+ 		 gap: 20px;
+
+
+	}
+
+	/*-*/
+
+		.benefits-cards{
+
+ 		 border: 1px solid green;
+ 		 border-radius: 40px;
+
+ 		 position: relative;
+
+ 		 max-width: 400px;
+ 		 height: 500px;
+ 		 
+
+		}
+
+		/*-*/
+
+			.icon-place{
+
+		 		border: 1px solid black;
+		 		border-radius: 40px 40px 0 0;
+
+		 		max-width: 100%;
+		 		height: 25%;
+
+		 		position: relative;
+
+		 		display: flex;
+		 		flex-direction: column;
+		 		justify-content: space-evenly;
+		 		align-items: center;
+
+
+
+
+
+			}
+
+			/*-*/
+
+				.icon{
+
+			 		border: 1px solid black;
+
+			 		position: relative;
+
+
+				}
+
+				/*---*/
+
+                .icon h4{
+
+                     position: relative;
+
+                     text-align: center;
+
+                }
+
+
+
+
+			/*-*/
+
+			.benefits-text{
+
+ 		      border: 1px solid red;
+ 		      border-radius: 0 0 40px 40px ;
+
+ 		      position: relative;
+
+ 		      max-width: 100%;
+		 	  height: 75%;
+
+ 		      display: flex;
+ 		      flex-direction: row;
+ 		      justify-content: center;
+ 		      align-items: flex-start;
+
+			}
+
+			.benefits-text p {
+
+				border: 1px solid red;
+
+				position: relative;
+
+				max-width: 70%;
+
+				margin-top: 5%;
+
+				text-align: left;
+				font-size: 1.2rem;
+
+				word-spacing: 1px;
+
+				text-indent: 10px;
+			}
+
+
+/*--------------------------------------------------------------*/
+
+/*public*/
+
+#public{
+
+ border: 1px solid black;
+
+ position: relative;
+
+ max-width: 100%;
+ height: 820px;
+
+ background: gray;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+
+}
+
+/*-*/
+
+	#public-left{
+
+
+ 		border: 1px solid black;
+
+ 		position: relative;
+
+ 		width: 49%;
+ 		height: 100%;
+
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: center;
+ 		align-items: center;
+
+	}
+
+	/*-*/
+
+		#public-left h3{
+
+			position: relative;
+		}
+
+	/*---*/
+
+	#public-right{
+
+ 		border: 1px solid black;
+
+ 		position: relative;
+
+ 		max-width: 45%;
+ 		height: 100%;
+
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: center;
+ 		align-items: center;
+
+	}
+
+	/*-*/
+
+		ol{
+
+ 			border: 1px solid black;
+ 			position: relative;
+
+		}
+
+		/*-*/
+
+			.items-list{
+
+ 			border: 1px solid black;
+ 			list-style-position: inside;
+
+ 			padding-top: 5%;
+ 			padding-bottom: 5%;
+
+			}
+
+
+
+/*--------------------------------------------------------------*/
+
+/*plans*/
+
+#plans{
+
+	border: 1px solid black;
+
+	position: relative;
+
+	max-width: 100%;
+	height: 820px;
+
+	background: #e0d6b8;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+ 
+
+}
+
+/*-*/
+
+	#plans-top{
+
+ 		border: 1px solid black;
+
+ 		position: relative;
+
+ 		width: 100%;
+ 		height: 20%;
+
+ 		text-align: center;
+
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: center;
+ 		align-items: center;
+
+	}
+
+	/*-*/
+
+		#plans-top h3{
+ 
+          position: relative;
+
+		}
+
+
+	/*---*/
+
+	#plans-bottom{
+
+ 		border: 1px solid black;
+
+ 		width: 60%;
+
+ 		position: relative;
+
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: space-evenly;
+ 		align-items: center;
+ 		flex-wrap: wrap;
+
+
+	}
+
+	/*-*/
+
+		.option-plans{
+
+ 		border: 1px solid black;
+
+ 		border-radius: 20px;
+
+ 		position: relative;
+
+ 		width: 350px;
+ 		height: 400px;
+
+ 		display: flex;
+ 		flex-direction: column;
+ 		justify-content: space-evenly;
+ 		align-items: center;
+
+		}
+
+		/*-*/
+
+			 .option-plans-top{
+
+			 	max-width: 75%;
+			 	max-height: 50%;
+
+			 	display: flex;
+			 	flex-direction: row;
+			 	justify-content: center;
+			 	align-items: center;
+
+			 	border: 1px solid black;
+
+			 	text-align: center;
+			 }
+
+			 /*-*/
+
+			 	.option-plans-top h5{
+
+			 		font-size: 3rem;
+			 	}
+
+			 	/*---*/
+
+			 	.option-plans-top p{
+
+			 		font-size: 1.5rem;
+			 	}
+
+			 /*---*/
+
+			  .option-plans-bottom{
+
+			  	border: 1px solid black;
+
+			  }
+
+			  /*-*/
+
+			  		 .option-plans-bottom p{
+
+                         font-size: 1.5rem;
+
+			  		 }
+
+			  		 /*---*/
+
+			  		 .cta-btt{
+
+			  		 	border: none;
+			  		 	border-radius: 30px;
+
+			  		 	font-size: 1.2rem;
+
+			  		 	padding: 20px 40px 20px 40px;
+			  		 }
+
+
+/*--------------------------------------------------------------*/
+
+/*footer*/
+
+footer{
+
+     border: 1px solid black;
+
+     max-width: 100%;
+     height: 300px;
+
+	 position: relative;
+
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+	 align-items: center;
+
+
+	 
+}
+
+/*-*/
+
+	#footer-left{
+
+ 	 border: 1px solid black;
+
+ 	 position: relative;
+
+	}
+
+	/*---*/
+
+	#footer-right{
+
+
+ 	border: 1px solid black;
+
+ 	position: relative;
+
+ 	width: 50%;
+
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-evenly;
+ 	align-items: flex-start;
+
+
+	}
+
+	/*-*/
+
+		.items-footer{
+
+		 border: 1px solid black;	
+		}
