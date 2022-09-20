@@ -3,13 +3,19 @@
 	margin: 0;
 	padding: 0;
 
-	font-family: arial;
+	
+}
+
+div{
+	/*border: 1px solid red;*/
 }
 
 html,body{
 
-	width: 100%;
+	width: auto;
 	height: 100%;
+
+	font-family: teste2;
 }
 
 @font-face{
@@ -38,9 +44,11 @@ src: url(Conforta.ttf);
 
 	margin: auto;
 
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 
 	position: relative;
+
+	background: #fafafa;
 
 
 }
@@ -66,7 +74,7 @@ src: url(Conforta.ttf);
   
 	header{
 
-	     border: 1px solid black;
+	     /*border: 1px solid black;*/
 
           display: flex;
           flex-direction: row;
@@ -87,14 +95,16 @@ src: url(Conforta.ttf);
 
 		nav{
 
-            border: 1px solid black;
+            /*border: 1px solid black;*/
            
 	        display: flex;
 	        flex-direction: row;
 	        justify-content: space-around;
 	        align-items: center;
 
-	        gap: 40px;
+	        gap: 20px;
+
+
 
 		}
 
@@ -113,12 +123,12 @@ src: url(Conforta.ttf);
 
 #introduction{
 
-	     border: 1px solid black;
+	     /*border: 1px solid black;*/
 
           position: relative;
 
-          max-width: 100%;
-		height: 820px;
+          max-width: auto;
+		      height: 820px;
 
           margin: auto;
 
@@ -141,7 +151,7 @@ src: url(Conforta.ttf);
 
 	#title-introduction{
 
-		border: 1px solid black;
+		/*border: 1px solid black;*/
 
 		width: 70%;
 
@@ -186,9 +196,9 @@ src: url(Conforta.ttf);
 
 	#sub-title-introduction{
 
-		border: 1px solid black;
+		/*border: 1px solid black;*/
 
-        max-width: 100%;
+        max-width: auto;
 
         font-size: 2rem;
 
@@ -202,14 +212,14 @@ src: url(Conforta.ttf);
 
 
 #about{
-     border: 1px solid black;
+     /*border: 1px solid black;*/
 
      position: relative;
 
-     max-width: 100%;
+     max-width: auto;
      height: 820px;
 
-     background: gray;
+     
 
      display: flex;
      flex-direction: column;
@@ -220,11 +230,11 @@ src: url(Conforta.ttf);
 
 	#about-top{
 
-        border: 1px solid black;
+        /*border: 1px solid black;*/
 
         position: relative;
 
-        max-width: 100%;
+        max-width: auto;
         height: 25%;
 
         display: flex;
@@ -237,6 +247,13 @@ src: url(Conforta.ttf);
 
 	#about-top h2{
 
+      font-size: 5rem;
+       background: #f71568;
+    background: -webkit-linear-gradient(to right, #f71568, #2f2bad);
+    background: linear-gradient(to right, #f71568, #2f2bad);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
         
 	}
 
@@ -244,11 +261,11 @@ src: url(Conforta.ttf);
 
 	#about-bottom{
 
-            border: 1px solid black;
+            /*border: 1px solid black;*/
 
             position: relative;
 
-            max-width: 100%;
+            max-width: auto;
             height: 75%;
 
             display: flex;
@@ -262,7 +279,7 @@ src: url(Conforta.ttf);
 
     	#about-bottom-left{
 
-             border: 1px solid black;
+             /*border: 1px solid black;*/
 
              position: relative;
 
@@ -271,7 +288,7 @@ src: url(Conforta.ttf);
 
              display: flex;
 	         flex-direction: row;
-	         justify-content: flex-start;
+	         justify-content: center;
 	         align-items: center;
     
 
@@ -281,9 +298,12 @@ src: url(Conforta.ttf);
 
     		#about-bottom-left-content{
 
-                 border: 1px solid black;
+                 /*border: 1px solid black;*/
 
                  position: relative;
+
+                 font-size: 1.5rem;
+                 text-align: left;
 
                  max-width: 75%;
                  height: 75%;
@@ -294,7 +314,7 @@ src: url(Conforta.ttf);
 
     	#about-bottom-right{
 
- 				border: 1px solid black;
+ 				/*border: 1px solid black;*/
 
  				position: relative;
 
@@ -311,10 +331,11 @@ src: url(Conforta.ttf);
 
     		#image-woman{
 
- 				border: 1px solid black;
+ 				/*border: 1px solid black;*/
 
+                   position: relative;
 
-                 max-width: 300px;
+                 max-width: 500px;
 
     		}
 
@@ -324,24 +345,26 @@ src: url(Conforta.ttf);
 
                  display: block;
 
-                 max-width: 300px;
+                 width: 100%;
 
     			}
 
     			#shape-barbara{
 
-    				max-width: 400px;
-    				max-height: 400px;
+    				max-width: auto;
+    				/*width: 100%;*/
+    				max-height: 100%;
+    				/*height: 100%;*/
 
-    				border-radius: 30px;
+    				border-radius: 77% 48% 70% 62% / 66% 75% 61% 40% ;
 
-    				background: black;
+    				background-image: linear-gradient(45deg, #582770, #f71568, #b3c631);
 
     				position: relative;
 
     				display: flex;
     				justify-content: center;
- 				    align-items: center;
+ 				align-items: center;
 
     			}
 
@@ -353,15 +376,15 @@ src: url(Conforta.ttf);
 
 #benefits{
 
-		 border: 1px solid black;
+		 /*border: 1px solid black;*/
 
 		 position: relative;
 
-		 max-width: 100%;
+		 max-width: auto;
 		 height: 100%;
 		 
-
-		 background: #e0d6b8;
+           
+		 
 
 }
 
@@ -369,9 +392,9 @@ src: url(Conforta.ttf);
 	
 	#benefits-top{
 
- 		 border: 1px solid black;
+ 		 /*border: 1px solid black;*/
 
- 		 max-width: 100%;
+ 		 max-width: auto;
  		 height: 10%;
 
  		 display: flex;
@@ -390,17 +413,25 @@ src: url(Conforta.ttf);
 
 
 			position: relative;
+
+			font-size: 5rem;
+       background: #f71568;
+    background: -webkit-linear-gradient(to right, #f71568, #2f2bad);
+    background: linear-gradient(to right, #f71568, #2f2bad);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
 		}
 
 	/*---*/
 
 	#benefits-bottom{
 
- 		 border: 1px solid black;
+ 		 /*border: 1px solid black;*/
 
  		 position: relative;
 
- 		 max-width: 100%;
+ 		 max-width: auto;
  		 height: 100%;
 
  		 padding-top: 5%;
@@ -411,7 +442,7 @@ src: url(Conforta.ttf);
  		 justify-content: space-evenly;
  		 align-items: center;
  		 flex-wrap: wrap;
- 		 gap: 20px;
+ 		 gap: 10px;
 
 
 	}
@@ -420,13 +451,20 @@ src: url(Conforta.ttf);
 
 		.benefits-cards{
 
- 		 border: 1px solid green;
+ 		 
  		 border-radius: 40px;
 
  		 position: relative;
 
  		 max-width: 400px;
  		 height: 500px;
+
+
+
+ 		 
+           background: #FFFFFF;
+           box-shadow:  5px 5px 22px #dbdbdb,
+             -5px -5px 22px #ffffff;
  		 
 
 		}
@@ -435,10 +473,10 @@ src: url(Conforta.ttf);
 
 			.icon-place{
 
-		 		border: 1px solid black;
+		 		
 		 		border-radius: 40px 40px 0 0;
 
-		 		max-width: 100%;
+		 		max-width: auto;
 		 		height: 25%;
 
 		 		position: relative;
@@ -448,6 +486,7 @@ src: url(Conforta.ttf);
 		 		justify-content: space-evenly;
 		 		align-items: center;
 
+                    color: #f71568;
 
 
 
@@ -458,7 +497,6 @@ src: url(Conforta.ttf);
 
 				.icon{
 
-			 		border: 1px solid black;
 
 			 		position: relative;
 
@@ -473,6 +511,7 @@ src: url(Conforta.ttf);
 
                      text-align: center;
 
+
                 }
 
 
@@ -482,12 +521,12 @@ src: url(Conforta.ttf);
 
 			.benefits-text{
 
- 		      border: 1px solid red;
+ 		      
  		      border-radius: 0 0 40px 40px ;
 
  		      position: relative;
 
- 		      max-width: 100%;
+ 		      max-width: auto;
 		 	  height: 75%;
 
  		      display: flex;
@@ -499,7 +538,7 @@ src: url(Conforta.ttf);
 
 			.benefits-text p {
 
-				border: 1px solid red;
+				
 
 				position: relative;
 
@@ -522,14 +561,16 @@ src: url(Conforta.ttf);
 
 #public{
 
- border: 1px solid black;
+ /*border: 1px solid black;*/
 
  position: relative;
 
- max-width: 100%;
+ max-width: auto;
  height: 820px;
 
- background: gray;
+ background-image: linear-gradient(45deg, #582770, #f71568, #b3c631);
+
+ color: #ebdfcc;
 
  display: flex;
  flex-direction: row;
@@ -543,7 +584,7 @@ src: url(Conforta.ttf);
 	#public-left{
 
 
- 		border: 1px solid black;
+ 		/*border: 1px solid black;*/
 
  		position: relative;
 
@@ -562,13 +603,14 @@ src: url(Conforta.ttf);
 		#public-left h3{
 
 			position: relative;
+			font-size: 5rem;
 		}
 
 	/*---*/
 
 	#public-right{
 
- 		border: 1px solid black;
+ 		/*border: 1px solid black;*/
 
  		position: relative;
 
@@ -586,8 +628,10 @@ src: url(Conforta.ttf);
 
 		ol{
 
- 			border: 1px solid black;
+ 			/*border: 1px solid black;*/
  			position: relative;
+ 			
+ 			font-size: 1.2rem;
 
 		}
 
@@ -595,11 +639,8 @@ src: url(Conforta.ttf);
 
 			.items-list{
 
- 			border: 1px solid black;
- 			list-style-position: inside;
-
- 			padding-top: 5%;
- 			padding-bottom: 5%;
+ 			/*border: 1px solid black;*/
+ 			
 
 			}
 
@@ -607,18 +648,100 @@ src: url(Conforta.ttf);
 
 /*--------------------------------------------------------------*/
 
+#grid{
+position: relative;
+max-width: auto;
+height: 100%;
+
+padding-top: 5%;
+padding-bottom: 5%;	
+
+display: flex;
+flex-direction: column;
+align-items: space-around;
+justify-content: space-around;
+}
+
+#grid-title{
+
+	padding-top: 10%;
+	padding-bottom: 10%;
+
+	font-size: 5rem;
+	text-align: center;
+}
+
+#grid-title h4{
+
+	font-size: 2rem;
+
+}
+
+
+#grid-images{
+
+	position: relative;
+
+	width: 90%;
+	height: 100%;
+
+	margin: auto;
+
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr;
+	
+	
+	
+}
+
+/*-*/
+	.teste-grid{
+
+		
+		overflow: hidden;
+
+		position: relative;}
+
+	.grid-layout{
+
+		width: 100%;
+		border-radius: 20px;
+	}
+
+	#show{
+
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+
+	#show h3{
+
+		padding: 10% 0 10% 0;
+		font-size: 3rem;
+	}
+
+	video{
+
+		border-radius: 20px;
+		margin: auto;
+		display: block;
+	}
+
+/*--------------------------------------------------------------*/
+
 /*plans*/
 
 #plans{
 
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 
 	position: relative;
 
-	max-width: 100%;
+	max-width: auto;
 	height: 820px;
 
-	background: #e0d6b8;
+	
 
 	display: flex;
 	flex-direction: column;
@@ -632,11 +755,11 @@ src: url(Conforta.ttf);
 
 	#plans-top{
 
- 		border: 1px solid black;
+ 		/*border: 1px solid black;*/
 
  		position: relative;
 
- 		width: 100%;
+ 		width: auto;
  		height: 20%;
 
  		text-align: center;
@@ -654,6 +777,8 @@ src: url(Conforta.ttf);
  
           position: relative;
 
+          font-size: 5rem;
+
 		}
 
 
@@ -661,7 +786,7 @@ src: url(Conforta.ttf);
 
 	#plans-bottom{
 
- 		border: 1px solid black;
+ 		
 
  		width: 60%;
 
@@ -680,9 +805,13 @@ src: url(Conforta.ttf);
 
 		.option-plans{
 
- 		border: 1px solid black;
+ 		
 
  		border-radius: 20px;
+
+ 		background: #FFFFFF;
+
+ 		font-weight: bold;
 
  		position: relative;
 
@@ -694,7 +823,36 @@ src: url(Conforta.ttf);
  		justify-content: space-evenly;
  		align-items: center;
 
+ 		box-shadow:  5px 5px 22px #dbdbdb,
+             -5px -5px 22px #ffffff;
+ 		 
+
 		}
+
+		/*---*/
+
+		#anual-plan{
+
+
+			background-image: linear-gradient(45deg, #582770, #f71568);
+			color: whitesmoke;
+		}
+
+		/*---*/
+
+		#mensal-plan{
+
+
+			background-image: linear-gradient(45deg, #FFFFFF, #fcfdff);
+			color: #090f13;
+		}
+
+		#mensal-plan h5{
+
+			color: #f71568;
+		} 
+
+
 
 		/*-*/
 
@@ -708,7 +866,7 @@ src: url(Conforta.ttf);
 			 	justify-content: center;
 			 	align-items: center;
 
-			 	border: 1px solid black;
+			 	/*border: 1px solid black;*/
 
 			 	text-align: center;
 			 }
@@ -731,7 +889,7 @@ src: url(Conforta.ttf);
 
 			  .option-plans-bottom{
 
-			  	border: 1px solid black;
+			  	/*border: 1px solid black;*/
 
 			  }
 
@@ -756,15 +914,22 @@ src: url(Conforta.ttf);
 			  		 }
 
 
+			  		 #mensal-plan .cta-btt{
+
+			  		 	background-image: linear-gradient(45deg, #582770, #f71568);
+			  		 	color: whitesmoke;
+			  		 }
+
+
 /*--------------------------------------------------------------*/
 
 /*footer*/
 
 footer{
 
-     border: 1px solid black;
+     /*border: 1px solid black;*/
 
-     max-width: 100%;
+     max-width: auto;
      height: 300px;
 
 	 position: relative;
@@ -775,6 +940,8 @@ footer{
 	 align-items: center;
 
 
+
+
 	 
 }
 
@@ -782,7 +949,7 @@ footer{
 
 	#footer-left{
 
- 	 border: 1px solid black;
+ 	 /*border: 1px solid black;*/
 
  	 position: relative;
 
@@ -793,7 +960,7 @@ footer{
 	#footer-right{
 
 
- 	border: 1px solid black;
+ 	/*border: 1px solid black;*/
 
  	position: relative;
 
@@ -811,5 +978,1307 @@ footer{
 
 		.items-footer{
 
-		 border: 1px solid black;	
+		/* border: 1px solid black;*/
+		 text-decoration: none;	
 		}
+
+		.items-footer a{
+
+			text-decoration: none;
+			color: whitesmoke;	
+		}
+
+
+		/*-----mediaqueries-----*/
+
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+
+
+
+
+	html,body{
+
+		font-size: 50%;
+	}
+
+
+	#frame{
+
+		width: 100%;
+		margin-right: auto;
+	}
+
+
+	header{
+
+		padding: 10%;
+	}
+
+
+
+	.items{
+
+				position: relative;
+				font-size: 1.2rem;
+			}
+
+
+
+    .sections{
+
+    	max-height: 100vh;
+    	
+    }
+
+
+    /*------------*/
+
+	#title-introduction{
+
+		/*border: 1px solid black;*/
+
+		width: 80%;
+
+		font-size: 6rem;
+
+		font-family: teste;
+
+		margin-bottom: 5%;
+
+		position: relative;
+
+		line-height: 75px;
+
+	}
+
+
+	#title-introduction h1{
+
+		font-family: teste;
+		text-align: left;
+		font-weight: 600;
+
+	}
+
+	#title-introduction h2{
+
+		font-family: teste2;
+          font-size: 6rem;
+          text-align: right;
+
+          color: #cde54e;
+
+          font-weight: normal;
+	}
+	/*---*/
+
+	#sub-title-introduction{
+
+		/*border: 1px solid black;*/
+
+        max-width: 100%;
+
+        font-size: 2rem;
+
+		text-align: center;
+
+	}
+
+
+
+
+
+
+
+	/*---------------*/
+
+
+#about-top, #about-bottom{
+
+	flex-direction: column;
+	text-align: center;
+}
+
+
+/*---*/
+
+		#about-bottom-left-content{
+
+      /*border: 1px solid black;*/
+
+      position: relative;
+
+      font-size: 2rem;
+      text-align: center;
+
+      max-width:100%;
+    
+
+    		}
+
+
+
+#image-woman{
+
+
+     position: relative;
+     max-width:300px;
+
+    		}
+
+
+
+	.benefits-cards{
+
+ 		 
+ 		 border-radius: 40px;
+
+ 		 position: relative;
+
+ 		 max-width: 250px;
+ 		 height: 350px;
+     background: #FFFFFF;
+     box-shadow:  5px 5px 22px #dbdbdb,
+     -5px -5px 22px #ffffff;
+
+     font-size: 1.5rem;
+ 		 
+
+		}
+
+
+		.icon-place{
+
+		 		
+		 		/*border-radius: 40px 40px 0 0;*/
+
+		 		/*max-width: auto;*/
+		 		height: 30%;
+
+		 		/*position: relative;*/
+
+		 		/*display: flex;
+		 		flex-direction: column;
+		 		justify-content: space-evenly;
+		 		align-items: center;
+*/
+        /*color: #f71568;*/
+        font-size: 1.6rem;
+        text-align: center;
+
+
+			}
+
+			.benefits-text p {
+
+				
+
+				/*position: relative;*/
+
+				max-width: 70%;
+
+				margin-top: 5%;
+
+				text-align: left;
+				font-size: 1.5rem;
+
+				word-spacing: 1px;
+
+				text-indent: 10px;
+			}
+
+/*----------------*/
+
+#public{
+
+ /*border: 1px solid black;*/
+
+ /*position: relative;*/
+
+/* max-width: auto;*/
+ /*height: 820px;*/
+
+ /*background-image: linear-gradient(45deg, #582770, #f71568, #b3c631);
+
+ color: #ebdfcc;*/
+
+ /*display: flex;*/
+ flex-direction: column;
+ justify-content: center;
+ align-items: space-evenly;
+
+ padding-bottom: 20%;
+ padding-top: 15%;
+
+}
+
+
+
+	#public-left{
+
+
+ 		/*border: 1px solid black;*/
+
+ 		/*position: relative;*/
+
+ 		width: 100%;
+ 		padding-top: 10%;
+ 		padding-bottom: 15%;
+ 		/*height: 100%;*/
+
+ 		/*display: flex;
+ 		flex-direction: row;
+ 		justify-content: center;
+ 		align-items: center;*/
+
+	}
+
+	/*-*/
+
+		#public-left h3{
+
+			/*position: relative;
+			font-size: 5rem;*/
+			text-align: center;
+		}
+
+	/*---*/
+
+	#public-right{
+
+ 		/*border: 1px solid black;*/
+
+ 		position: relative;
+
+ 		max-width: 45%;
+ 		height: 100%;
+
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: center;
+ 		align-items: center;
+
+	}
+
+	/*-*/
+
+		ol{
+
+ 			/*border: 1px solid black;*/
+ 			position: relative;
+ 			
+ 			font-size: 1.5rem;
+
+		}
+
+		/*-*/
+
+			.items-list{
+
+ 			/*border: 1px solid black;*/
+ 			
+
+			}
+
+/*---------------------------*/
+
+
+#grid{
+
+/*position: relative;
+max-width: auto;
+height: 100%;
+
+padding-top: 5%;
+padding-bottom: 5%;	
+
+display: flex;
+flex-direction: column;
+align-items: space-around;
+justify-content: space-around;*/
+
+}
+
+#grid-title{
+
+	/*padding-top: 10%;
+	padding-bottom: 10%;
+
+	font-size: 5rem;
+	text-align: center;*/
+}
+
+#grid-title h4{
+
+	/*font-size: 2rem;*/
+
+}
+
+
+#grid-images{
+
+	/*position: relative;
+
+	width: 90%;
+	height: 100%;
+
+	margin: auto;*/
+
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr;
+	gap: 10px;
+	
+	
+	
+}
+
+/*-*/
+	.teste-grid{
+
+		
+		/*overflow: hidden;
+
+		position: relative*/;}
+
+	.grid-layout{
+
+		/*width: 100%;
+		border-radius: 20px;*/
+	}
+
+	#show{
+
+		/*position: relative;
+		margin: auto;
+		text-align: center;*/
+
+		padding-top: 15%;
+	}
+
+	#show h3{
+
+		/*padding: 10% 0 10% 0;
+		font-size: 3rem;*/
+	}
+
+	video{
+
+	/*	border-radius: 20px;
+		margin: auto;
+		display: block;*/
+	}
+
+
+/*-----------------------------*/
+
+
+#plans{
+
+	/*border: 1px solid black;*/
+
+	/*position: relative;*/
+
+	/*max-width: auto;*/
+	height: 100vh;
+
+	padding-top: 5%;
+
+	/*display: flex;*/
+	/*flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;*/
+ 
+
+}
+
+/*-*/
+
+	#plans-top{
+
+ 		/*border: 1px solid black;*/
+
+ 		/*position: relative;*/
+
+ 		/*width: auto;*/
+ 		height: 15%;
+
+ 		/*text-align: center;*/
+
+ 		display: flex;
+ 		flex-direction: column;
+ 		justify-content: space-around;
+ 		align-items: center;
+
+	}
+
+	/*-*/
+
+		#plans-top h4{
+ 
+
+     font-size: 2rem;
+
+		}
+
+
+	/*---*/
+
+	#plans-bottom{
+
+ 		
+
+ 		width: 95%;
+
+ 		/*position: relative;
+
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: space-evenly;
+ 		align-items: center;*/
+ 		flex-wrap: nowrap;
+ 		gap: 10px;
+
+
+	}
+
+	/*-*/
+
+		.option-plans{
+
+ 		
+
+ 		/*border-radius: 20px;
+
+ 		background: #FFFFFF;
+
+ 		font-weight: bold;
+
+ 		position: relative;*/
+
+ 		width: 50%;
+ 		height: 200px;
+
+ 		/*display: flex;
+ 		flex-direction: column;
+ 		justify-content: space-evenly;
+ 		align-items: center;*/
+
+ 		/*box-shadow:  5px 5px 22px #dbdbdb,
+             -5px -5px 22px #ffffff;*/
+ 		 
+
+		}
+
+		/*---*/
+
+		#anual-plan{
+
+
+			/*background-image: linear-gradient(45deg, #582770, #f71568);
+			color: whitesmoke;*/
+		}
+
+		/*---*/
+
+		#mensal-plan{
+
+
+			/*background-image: linear-gradient(45deg, #FFFFFF, #fcfdff);
+			color: #090f13;*/
+		}
+
+		#mensal-plan h5{
+
+			/*color: #f71568;*/
+		} 
+
+
+
+		/*-*/
+
+			 .option-plans-top{
+
+			 	/*max-width: 75%;
+			 	max-height: 50%;
+*/
+			 	/*display: flex;
+			 	flex-direction: row;
+			 	justify-content: center;
+			 	align-items: center;*/
+
+			 	/*border: 1px solid black;*/
+
+			 	/*text-align: center;*/
+			 }
+
+			 /*-*/
+
+			 	.option-plans-top h5{
+
+			 		font-size: 3rem;
+			 	}
+
+			 	/*---*/
+
+			 	.option-plans-top p{
+
+			 		font-size: 1.8rem;
+			 	}
+
+			 /*---*/
+
+			  .option-plans-bottom{
+
+			  	/*border: 1px solid black;*/
+
+			  }
+
+			  /*-*/
+
+			  		 .option-plans-bottom p{
+
+                         font-size: 1.2rem;
+
+			  		 }
+
+			  		 /*---*/
+
+			  		 .cta-btt{
+
+			  		 	/*border: none;
+			  		 	border-radius: 30px;*/
+
+			  		 	font-size: 1.2rem;
+
+			  		 	padding: 10px 20px 10px 20px;
+			  		 }
+
+
+			  		 #mensal-plan .cta-btt{
+
+			  		 /*	background-image: linear-gradient(45deg, #582770, #f71568);
+			  		 	color: whitesmoke;*/
+			  		 }
+
+
+
+			  		 footer{
+
+     /*border: 1px solid black;
+
+     max-width: auto;*/
+     height: 150px;
+
+	 /*position: relative;*/
+
+	 background-image: linear-gradient(45deg, #582770, #f71568);
+
+	 /*display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;*/
+	 align-items: flex-start;
+	 padding-top: 5%;
+
+	 	color: whitesmoke;
+
+
+	 
+}
+
+/*-*/
+
+	#footer-left{
+/*
+ 	 border: 1px solid black;
+
+ 	 position: relative;*/
+
+ 	 font-size: 2rem;
+ 	 width: 40%;
+
+	}
+
+	/*---*/
+
+	#footer-right{
+
+
+ 	/*border: 1px solid black;*/
+
+ 	position: relative;
+
+ 	width: 30%;
+
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-evenly;
+ 	align-items: flex-start;
+
+ 	color: whitesmoke;
+
+
+	}
+
+	/*-*/
+
+		.items-footer{
+
+		 /*border: 1px solid black;	*/
+
+		 font-size: 1.2rem;
+		}
+
+
+}
+
+
+/*-------------*/
+
+
+@media screen and (min-width: 426px) and (max-width: 500px){
+
+
+
+
+	/*html,body{
+
+		font-size: 50%;
+	}*/
+
+
+	/*#frame{
+
+		width: 100%;
+		margin-right: auto;
+	}*/
+
+
+	/*header{
+
+		padding: 10%;
+	}*/
+
+
+
+/*	.items{
+
+				position: relative;
+				font-size: 1.2rem;
+			}*/
+
+/* .sections{
+
+    	max-height: 100vh;
+    	
+    }
+*/
+   
+
+
+    /*------------*/
+
+	/*#title-introduction{
+
+		
+
+		width: 70%;
+
+		font-size: 6rem;
+
+		font-family: teste;
+
+		margin-bottom: 5%;
+
+		position: relative;
+
+		line-height: 75px;
+
+	}
+*/
+
+/*	#title-introduction h1{
+
+		font-family: teste;
+		text-align: left;
+		font-weight: 600;
+
+	}*/
+
+	/*#title-introduction h2{
+
+		font-family: teste2;
+          font-size: 6rem;
+          text-align: right;
+
+          color: #cde54e;
+
+          font-weight: normal;
+	}*/
+	/*---*/
+/*
+	#sub-title-introduction{
+
+		
+        max-width: 100%;
+
+        font-size: 2rem;
+
+		text-align: center;
+
+	}*/
+
+
+
+
+
+
+
+	/*---------------*/
+
+
+/*#about-top, #about-bottom{
+
+	flex-direction: column;
+	text-align: center;
+}
+*/
+
+/*---*/
+
+	/*	#about-bottom-left-content{
+
+      
+
+      position: relative;
+
+      font-size: 2rem;
+      text-align: center;
+
+      max-width:100%;
+    
+
+    		}*/
+
+
+
+/*#image-woman{
+
+
+     position: relative;
+     max-width:300px;
+
+    		}*/
+
+
+
+	/*.benefits-cards{
+
+ 		 
+ 		 border-radius: 40px;
+
+ 		 position: relative;
+
+ 		 max-width: 250px;
+ 		 height: 350px;
+     background: #FFFFFF;
+     box-shadow:  5px 5px 22px #dbdbdb,
+     -5px -5px 22px #ffffff;
+
+     font-size: 1.5rem;
+ 		 
+
+		}*/
+
+
+		.icon-place{
+
+		 		
+		 		/*border-radius: 40px 40px 0 0;*/
+
+		 		/*max-width: auto;*/
+		 		/*height: 30%;*/
+
+		 		/*position: relative;*/
+
+		 		/*display: flex;
+		 		flex-direction: column;
+		 		justify-content: space-evenly;
+		 		align-items: center;
+*/
+        /*color: #f71568;*/
+       /* font-size: 1.6rem;
+        text-align: center;*/
+
+
+			}
+
+			.benefits-text p {
+
+				
+
+				/*position: relative;*/
+
+				/*max-width: 70%;
+
+				margin-top: 5%;
+
+				text-align: left;
+				font-size: 1.5rem;
+
+				word-spacing: 1px;
+
+				text-indent: 10px;*/
+			}
+
+/*----------------*/
+
+#public{
+
+ /*border: 1px solid black;*/
+
+ /*position: relative;*/
+
+/* max-width: auto;*/
+ /*height: 820px;*/
+
+ /*background-image: linear-gradient(45deg, #582770, #f71568, #b3c631);
+
+ color: #ebdfcc;*/
+
+ /*display: flex;*/
+/* flex-direction: column;
+ justify-content: center;
+ align-items: space-evenly;
+
+ padding-bottom: 10%;*/
+
+}
+
+
+
+	#public-left{
+
+
+ 		/*border: 1px solid black;*/
+
+ 		/*position: relative;*/
+
+ /*		width: 100%;*/
+ 		/*height: 100%;*/
+
+ 		/*display: flex;
+ 		flex-direction: row;
+ 		justify-content: center;
+ 		align-items: center;*/
+
+	}
+
+	/*-*/
+
+		#public-left h3{
+
+			/*position: relative;
+			font-size: 5rem;*/
+			/*text-align: center;*/
+		}
+
+	/*---*/
+
+	#public-right{
+
+ 		/*border: 1px solid black;*/
+
+ 	/*	position: relative;
+
+ 		max-width: 45%;
+ 		height: 100%;
+
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: center;
+ 		align-items: center;*/
+
+	}
+
+	/*-*/
+
+		ol{
+
+ 			/*border: 1px solid black;*/
+ 			/*position: relative;
+ 			
+ 			font-size: 1.3rem;*/
+
+		}
+
+		/*-*/
+
+			.items-list{
+
+ 			/*border: 1px solid black;*/
+ 			
+
+			}
+
+/*---------------------------*/
+
+
+#grid{
+
+/*position: relative;
+max-width: auto;
+height: 100%;
+
+padding-top: 5%;
+padding-bottom: 5%;	
+
+display: flex;
+flex-direction: column;
+align-items: space-around;
+justify-content: space-around;*/
+
+}
+
+#grid-title{
+
+	/*padding-top: 10%;
+	padding-bottom: 10%;
+
+	font-size: 5rem;
+	text-align: center;*/
+}
+
+#grid-title h4{
+
+	/*font-size: 2rem;*/
+
+}
+
+
+#grid-images{
+
+	/*position: relative;
+
+	width: 90%;
+	height: 100%;
+
+	margin: auto;*/
+
+/*	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr;
+	gap: 10px;*/
+	
+	
+	
+}
+
+/*-*/
+	.teste-grid{
+
+		
+		/*overflow: hidden;
+
+		position: relative;*/}
+
+	.grid-layout{
+
+		/*width: 100%;
+		border-radius: 20px;*/
+	}
+
+	#show{
+
+		/*position: relative;
+		margin: auto;
+		text-align: center;*/
+
+		/*padding-top: 15%;*/
+	}
+
+	#show h3{
+
+		/*padding: 10% 0 10% 0;
+		font-size: 3rem;*/
+	}
+
+	video{
+
+	/*	border-radius: 20px;
+		margin: auto;
+		display: block;*/
+	}
+
+
+/*-----------------------------*/
+
+
+#plans{
+
+	/*border: 1px solid black;*/
+
+	/*position: relative;*/
+
+	/*max-width: auto;*/
+/*	height: 100vh;
+
+	padding-top: 5%;*/
+
+	/*display: flex;*/
+	/*flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;*/
+ 
+
+}
+
+/*-*/
+
+	#plans-top{
+
+ 		/*border: 1px solid black;*/
+
+ 		/*position: relative;*/
+
+ 		/*width: auto;*/
+/* 		height: 15%;*/
+
+ 		/*text-align: center;*/
+
+ /*		display: flex;
+ 		flex-direction: column;
+ 		justify-content: space-around;
+ 		align-items: center;*/
+
+	}
+
+	/*-*/
+
+		#plans-top h4{
+ 
+/*
+     font-size: 2rem;*/
+
+		}
+
+
+	/*---*/
+
+	#plans-bottom{
+
+ 		
+
+ 	/*	width: 95%;*/
+
+ 		/*position: relative;
+
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: space-evenly;
+ 		align-items: center;*/
+ 		/*flex-wrap: nowrap;
+ 		gap: 10px;
+*/
+
+	}
+
+	/*-*/
+
+		.option-plans{
+
+ 		
+
+ 		/*border-radius: 20px;
+
+ 		background: #FFFFFF;
+
+ 		font-weight: bold;
+
+ 		position: relative;*/
+
+ 		/*width: 50%;
+ 		height: 200px;*/
+
+ 		/*display: flex;
+ 		flex-direction: column;
+ 		justify-content: space-evenly;
+ 		align-items: center;*/
+
+ 		/*box-shadow:  5px 5px 22px #dbdbdb,
+             -5px -5px 22px #ffffff;*/
+ 		 
+
+		}
+
+		/*---*/
+
+		#anual-plan{
+
+
+			/*background-image: linear-gradient(45deg, #582770, #f71568);
+			color: whitesmoke;*/
+		}
+
+		/*---*/
+
+		#mensal-plan{
+
+
+			/*background-image: linear-gradient(45deg, #FFFFFF, #fcfdff);
+			color: #090f13;*/
+		}
+
+		#mensal-plan h5{
+
+			/*color: #f71568;*/
+		} 
+
+
+
+		/*-*/
+
+			 .option-plans-top{
+
+			 	/*max-width: 75%;
+			 	max-height: 50%;
+*/
+			 	/*display: flex;
+			 	flex-direction: row;
+			 	justify-content: center;
+			 	align-items: center;*/
+
+			 	/*border: 1px solid black;*/
+
+			 	/*text-align: center;*/
+			 }
+
+			 /*-*/
+
+			 	.option-plans-top h5{
+
+			 	/*	font-size: 3rem;*/
+			 	}
+
+			 	/*---*/
+
+			 	.option-plans-top p{
+/*
+			 		font-size: 1.8rem;*/
+			 	}
+
+			 /*---*/
+
+			  .option-plans-bottom{
+
+			  	/*border: 1px solid black;*/
+
+			  }
+
+			  /*-*/
+
+			  		 .option-plans-bottom p{
+/*
+                         font-size: 1.2rem;*/
+
+			  		 }
+
+			  		 /*---*/
+
+			  		 .cta-btt{
+
+			  		 	/*border: none;
+			  		 	border-radius: 30px;*/
+
+			  		 /*	font-size: 1.2rem;
+
+			  		 	padding: 10px 20px 10px 20px;*/
+			  		 }
+
+
+			  		 #mensal-plan .cta-btt{
+
+			  		 /*	background-image: linear-gradient(45deg, #582770, #f71568);
+			  		 	color: whitesmoke;*/
+			  		 }
+
+
+
+			  		 footer{
+
+     /*border: 1px solid black;
+
+     max-width: auto;*/
+  /*   height: 150px;*/
+
+	 /*position: relative;*/
+
+/*	 background-image: linear-gradient(45deg, #582770, #f71568);*/
+
+	 /*display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;*/
+/*	 align-items: flex-start;
+	 padding-top: 5%;
+
+	 	color: whitesmoke;
+*/
+
+	 
+}
+
+/*-*/
+
+	#footer-left{
+/*
+ 	 border: 1px solid black;
+
+ 	 position: relative;*/
+
+ /*	 font-size: 2rem;
+ 	 width: 40%;*/
+
+	}
+
+	/*---*/
+
+	#footer-right{
+
+
+ 	/*border: 1px solid black;*/
+/*
+ 	position: relative;
+
+ 	width: 30%;
+
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-evenly;
+ 	align-items: flex-start;
+
+ 	color: whitesmoke;*/
+
+
+	}
+
+	/*-*/
+
+		.items-footer{
+
+		 /*border: 1px solid black;	*/
+
+		/* font-size: 1.2rem;*/
+		}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
