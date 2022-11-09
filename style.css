@@ -113,7 +113,8 @@ src: url(Conforta.ttf);
 			.items{
 
 				position: relative;
-				font-size: 1.5rem;
+				font-size: 1.8rem;
+				text-decoration: none;
 			}
 
 /*--------------------------------------------------------------*/
